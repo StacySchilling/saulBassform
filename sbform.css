@@ -1,0 +1,58 @@
+@charset "UTF-8";
+/* CSS Document */
+
+label#hdr {
+	font-family: Arial;
+	font-weight: bold;
+	font-size: 16px;
+	text-align: left;
+}
+
+label#text {
+	
+	font-family: Arial;
+	font-weight: normal;
+	font-size: 14px;
+}
+
+div {
+	margin-left: 300px;
+	margin-right: 300px;
+	padding: 20px;
+	background-color: #fff;
+	border: 2px solid #000;
+}
+
+h2 {
+	font-family: Arial;
+	font-weight: bold;
+	font-size: 28px;
+	text-align: center;
+	color: #000;
+}
+
+h3 {
+	font-family: Arial;
+	font-weight: normal;
+	font-size: 18px;
+	text-align: center;
+	color: #000;
+}
+
+div#header {
+	margin-left: 300px;
+	margin-right: 300px;
+	padding: 20px;
+	opacity: 0.7;
+}
+
+body {
+	background: url(images/sbwork.jpg);
+	padding: 10px;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-position: center top;
+	background-height: 500px;
+}
+
+

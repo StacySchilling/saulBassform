@@ -1,0 +1,55 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<link rel="stylesheet" type="text/css" href="sbform.css">
+
+<title>Saul Bass Form</title>
+</head>
+
+<body>
+<div id="header"><h2>Saul Bass Survey</h2>
+<h3>Fill out the form for more information on Saul Bass, his work and a historial lecture.</h3></div>
+<div><form action="/action.php" method="post">
+<label for="Name" id="hdr">Name:</label><br><br>
+<input name="Name" max size="60" maxlength="60" text="textarea" char="60"></input><br><br>
+<label for="Email" id="hdr">Email:</label><br><br>
+<input name="Email" max size="60" maxlength="60" text="textarea" char="60"></input><br><br>
+<label for="Age" id="hdr">Age:</label><br><br>
+<input name="Age" max size="4" maxlength="2" char="2"></input><br><br>
+<label for="Occupation" id="hdr">Occupation:</label><br><br>
+<input type="radio" id="Student" name="Occupation" value="Student"><label for="Student" id="text">&nbsp;Student</label></input><br>
+<input type="radio" id="Teacher" name="Occupation" value="Teacher"><label for="Teacher" id="text">&nbsp;Teacher</label><br>
+<input type="radio" id="Artist" name="Occupation" value="Artist"><label for="Artist" id="text">&nbsp;Artist</label><br>
+<input type="radio" id="Designer" name="Occupation" value="Designer"><label for="Designer" id="text">&nbsp;Designer</label><br>
+<input type="radio" id="Art Director" name="Occupation" value="Art Director"><label for="Art Director" id="text">&nbsp;Art Director</label><br>
+<input type="radio" id="Creative Director" name="Occupation" value="Creative Director"><label for="Creative Director" id="text">&nbsp;Creative Director</label><br><br>
+<label for="poster" id="hdr">What's your favorite Saul Bass poster design:</label>
+<br><br>
+<select id="poster">
+  <option value="The Shining">The Shining</option>
+  <option value="The Main with the Golden Arm">The Main with the Golden Arm</option>
+  <option value="The Graduate">The Graduate</option>
+  <option value="Vertigo">Vertigo</option>
+  <option value="Schnidler's List">Schnidler's List</option>
+  <option value="I don't have one.">I don't have one.</option>
+</select> 
+<br><br>
+<label for="Work" id="hdr">What would you like more information on regarding Saul Bass' work? (check all that apply)</label><br><br>
+<input name="Logos" type="checkbox"><label for="Logos" id="text">&nbsp;Logos</label><br>
+<input name="Movie Posters" type="checkbox"><label for="Movie" id="text">&nbsp;Movie Posters</label><br>
+<input name="Filmmaking" type="checkbox"><label for="Filmmaking" id="text">&nbsp;Filmmaking</label><br>
+<input name="Title Sequences" type="checkbox"><label for="Title" id="text">&nbsp;Title Sequences</label><br>
+<br>
+<label for="Comments" id="hdr">Comments or Questions:</label><br><br>
+<label>
+  <textarea name="comments" id="comments" cols="60" rows="5"></textarea>
+</label>
+<br><br>
+<input type="submit" value="Submit">
+<br>
+</form>
+</div>
+</body>
+
+</html>
